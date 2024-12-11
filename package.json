@@ -1,0 +1,22 @@
+{
+  "name": "prometheus-test-quotes-and-special-chars",
+  "version": "1.0.0",
+  "description": "Test Prometheus' handling of quotes and special characters",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "test": "tsx src/test_queries.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.3.3",
+    "hono": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.6.1",
+    "typescript": "^5.3.2"
+  },
+  "packageManager": "pnpm@9.15.0"
+}
